@@ -1,4 +1,4 @@
 const a = 5;
-const b = 5;
+const b = 6;
 
 const sum = a+b;
