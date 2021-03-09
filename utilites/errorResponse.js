@@ -7,7 +7,7 @@ class ErrorResponse extends Error{
         
     }
    
-ok done
+ok done or not done
 }
 
 module.exports = ErrorResponse;
