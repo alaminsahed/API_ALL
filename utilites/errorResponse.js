@@ -1,4 +1,13 @@
-const a = 5;
-const b = 100;
+class ErrorResponse extends Error{
+    constructor(message, statusCode){
+        super(message);
+        
+        this.statusCode = statusCode;
 
-const sum = a+b;
+        
+    }
+   
+
+}
+
+module.exports = ErrorResponse;
