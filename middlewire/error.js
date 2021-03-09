@@ -19,6 +19,9 @@ const errorHandler= (err, req,  res, next) =>{
          error = new ErrorResponse(message,404);
         
     }
+
+    // ami kano kono kisu vula jai
+    oefofeoj vfhtjt
    
     res.status(error.statusCode || 500).json({
         success: false,
