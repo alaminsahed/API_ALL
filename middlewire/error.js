@@ -20,7 +20,7 @@ const errorHandler= (err, req,  res, next) =>{
         
     }
 
-    
+    // ami kano kono kisu vula jai
    
     res.status(error.statusCode || 500).json({
         success: false,
