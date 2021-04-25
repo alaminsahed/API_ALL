@@ -1,0 +1,35 @@
+API ERROR:
+
+ERROR: 
+res.send is not a function at C:\webdevelopment\api master\server.js:9:9
+
+Solution:  have to write req, res. Error comes for writing res, req
+
+Error:
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 8080;
+
+Solution: 
+rm -rf node_modules
+rm package-lock.json yarn.lock
+npm cache clear --force
+npm install
+
+OR
+Check without process.env.PORT. if works then you do worng in .env file. It maybe you add ; after port.
+
+
+Error: Hit Api, get the req.body, No error in console but database not follow the command or not change in database.
+
+Solution: 
+Maybe you miss await in the mongo query in controller file.
+
+
+
+
+
+
+	 
