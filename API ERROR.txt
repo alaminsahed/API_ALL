@@ -1,4 +1,4 @@
-API ERROR:
+# API ERROR & SOLUTION:
 
 ERROR: 
 res.send is not a function at C:\webdevelopment\api master\server.js:9:9
